@@ -324,6 +324,10 @@ nav ul li a{
 /* Responsive Design */
 /* Mobile Device */
 @media only screen and (max-width:676px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
   label.logo{
     font-size: 35px;
     padding-left: 20px;
@@ -379,13 +383,47 @@ nav ul li a{
     margin-left: -60px;
   }
   .experience-container{
-    flex-direction: column;
+    margin-top: -40px;
   }
   .experience-info{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+  
   }
-  /* .experience-card,.experience-banner img{
-    display: none;
-  } */
+  .skill-title .features-you{
+    width: 100%;
+    text-align: center;
+    margin-left: -7px;
+  }
+  .experience{
+    width: 321px;
+    height: 201px;
+  }
+  .experience-sec-title{
+    font-size: 35px;
+  }
+  .experience-banner{    
+    margin-top: 50px;
+  }
+  .experience-banner img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .some-facts-container{
+    margin-left: 34px;
+  }
+  .facts-items{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sponsors-brands{
+    flex-direction: column;
+  }
+  .footer{
+    margin-bottom: 0;
+  }
+  .footer-info > p{
+    font-size: 12px;
+  }
 }
