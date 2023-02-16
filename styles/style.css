@@ -137,9 +137,189 @@ nav ul li a{
   margin-bottom: 32px;
 }
 
+/* Experience section styles */
+.experience-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.experience-info{
+  width: 70%;
+  display: flex;
+  gap: 54px;
+  justify-content: center;
+  align-items: center;
+}
+.experiences{
+  margin-top: 179px;
+}
+.experience{
+  width: 586px;
+  height: 171px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 30px;
+  background-color:  #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.features-you{
+  width: 468px;
+  height: 106px;
+  padding-left: 20px;
+  border-left: 5px solid #FF900E;
+  margin-bottom: 24px;
+}
+.skill-title{
+  margin-bottom: 30px;
+
+}
+.experience-sec-title{
+  font-weight: 700;
+  font-size: 45px;
+}
+.experience-sec-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.experience-title{
+  font-weight: 600;
+  font-size: 20px;
+}
+.experience-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.experience-banner{
+  margin-top: 130px;
+
+}
+.experience-banner img{
+  width: 600px;
+  height: 859px;
+}
+.experience-card{
+  width: 342px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF900E;
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.experience-card h1{
+  font-weight: 700;
+  font-size: 65px;
+}
+.experience-card p{
+  font-weight: 700;
+  font-size: 20px;
+  
+}
+
+/* Some facts section style */
+
+.some-facts-container{
+  width:80% ;
+  margin-top: 130px;
+  margin-left: 140px;
+  margin-bottom: 50px;
+}
+.facts-items{
+  display: flex;
+  gap: 124px;
+}
+
+.facts-title{
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.facts-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 100px;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  padding: 45px;
+  transition: .5s;
+}
+.item:hover{
+  /* border: 1px solid green ; */
+  background-color: #99e4e1;
+}
+.items-count{
+  font-weight: 600;
+  font-size: 45px;
+}
+.item-name{
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+/* Sponsors section style  */
+
+.sponsors-container{
+  /* display: flex; */
+
+  justify-content: center;
+  text-align: center;
+}
+.sponsors-title{
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.sponsors-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.sponsors-brands{  
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+/* footer */
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 216px;
+}
+.footer-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(1440px - 240px);
+  height: 100px;
+  background: #FFF4E7;
+  border-radius: 8px;
+}
+.footer-info > p{
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
 
 
-
+}
 
 /* Responsive Design */
 /* Mobile Device */
@@ -198,4 +378,14 @@ nav ul li a{
     text-align: center;
     margin-left: -60px;
   }
+  .experience-container{
+    flex-direction: column;
+  }
+  .experience-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* .experience-card,.experience-banner img{
+    display: none;
+  } */
 }
